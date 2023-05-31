@@ -181,3 +181,44 @@ body {
     color: #fff;
   }
   
+  @media screen and (max-width: 767px) {
+    header {
+      font-size: 24px;
+    }
+  
+    nav ul li {
+      margin: 0 5px;
+    }
+  
+    main {
+      margin: 10px;
+    }
+  
+    section {
+      padding: 10px;
+    }
+  
+    .villain-section {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .villain-section img {
+      margin-bottom: 10px;
+    }
+  
+    .image-gallery img,
+    .fanart-gallery img {
+      max-width: 100%;
+    }
+  
+    .video-container iframe {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .product-links a {
+      margin: 5px;
+      padding: 5px 10px;
+    }
+  }
