@@ -3,6 +3,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url("imagenes/background.png");
+    background-position: center;
+    background-repeat: repeat;
+      
+      
   }
   
   h1, h2, h3 {
@@ -112,8 +117,8 @@ body {
   
   .image-gallery img {
     margin: 10px;
-    max-width: 400px;
-    max-height: 400px;
+    width: 300px;
+    height: 400px;
   }
   
   /* Estilos para la sección de villanos */
@@ -153,8 +158,9 @@ body {
   
   .fanart-gallery img {
     margin: 10px;
-    max-width: 300px;
-    max-height: 300px;
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
   }
   
   /* Estilos para los enlaces de merchandising y productos */
