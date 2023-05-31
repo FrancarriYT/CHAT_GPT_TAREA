@@ -186,8 +186,13 @@ body {
       font-size: 24px;
     }
   
+    nav ul {
+      flex-wrap: wrap;
+    }
+  
     nav ul li {
-      margin: 0 5px;
+      flex-basis: 50%;
+      margin-bottom: 10px;
     }
   
     main {
@@ -205,6 +210,7 @@ body {
   
     .villain-section img {
       margin-bottom: 10px;
+      max-width: 100%;
     }
   
     .image-gallery img,
@@ -222,3 +228,4 @@ body {
       padding: 5px 10px;
     }
   }
+  
